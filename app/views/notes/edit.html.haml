@@ -1,5 +1,6 @@
-%h2 Edit Note
+.wrapper_with_padding
+	%h1 Edit Note
 
-= render "form"
+	= render 'form'
 
-=link_to "Cancel", @note
+	= link_to "Cancel", note_path
