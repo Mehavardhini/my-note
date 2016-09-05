@@ -4,10 +4,10 @@
 
 .notice{
   position: relative;
-  top:10px; 
+  top:10px;
 }
 #banner {
-	background-image: url(image-path("welcome_banner_image.jpg"));
+	background-image: url(image-path("welcome_banner_image2.png"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -39,6 +39,10 @@
 	padding: 3.5rem 0;
 	.quote {
 		margin: 0 0 .5rem 0;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    font-size: 0.8em;
 	}
 	.name {
 		@include bold_font;
@@ -49,7 +53,7 @@
 }
 
 #callouts {
-	background-image: url(image_path("callout_background.jpg"));
+	background-image: url(image_path("callout_background3.png"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -71,7 +75,11 @@
 			margin-bottom: 0;
 		}
 		p {
-			color: rgba(250, 250, 250, 0.4);
+      color: #fefefe;
+			color: rgba(250, 250, 250, 0.8);
+      letter-spacing: 1px;
+      font-size: 1em;
+      line-height: 1.7em;
 		}
 	}
 }
@@ -86,8 +94,9 @@
 		margin: 0;
 	}
 	p {
-			font-size: 1.25rem;
+			font-size: 1rem;
 			margin: 0 0 2.5rem 0;
-			color: #a7a8a8;
+			color: #333;
+      line-height: 1.3em;
 		}
 }

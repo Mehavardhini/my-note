@@ -24,9 +24,31 @@ body {
 }
 
 .wrapper_with_padding {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
-	padding: 3.5rem 0;
+	padding: 2em 0;
+}
+
+.no-note{
+	font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.wrapper_with_padding_notice{
+	width: 60%;
+	margin: 0 auto;
+	padding: 3em 0 0 0;
+}
+
+.notice, .alert{
+	width: 50%;
+	margin: 0 auto;
+	background: #fcf7d7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+	text-align: center;
 }
 
 .clearfix:before, .clearfix:after {
@@ -109,7 +131,7 @@ footer {
 
 input[type="text"], input[type="email"], input[type="password"], textarea {
 	width: 100%;
-	margin-bottom: 1rem;
+	margin-bottom: 0.3em;
 	border: 1px solid $light_gray;
 	border-radius: .4rem;
   padding: 10px;

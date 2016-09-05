@@ -27,6 +27,20 @@
 	}
 }
 
+label{
+	margin-top: 0.8em;
+	font-weight: bold;
+}
+
+.error{
+	font-size: 0.7em;
+	color:red;
+}
+
+.error_notification{
+	display: none;
+}
+
 #note_show {
 	.title {
 		@include bold_font;
