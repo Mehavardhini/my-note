@@ -9,7 +9,7 @@
 %body{"data-turbolinks" => "false"}
 	%header
 		.header_inner
-			= link_to image_tag( 'logo.svg'), root_path, id: "logo"
+			= link_to image_tag( 'logo1.png'), root_path, id: "logo"
 			%nav
 				- if user_signed_in?
 					= link_to "New Note", new_note_path
@@ -18,11 +18,11 @@
 					= link_to "Log In", new_user_session_path
 
 
-		- unless notice.nil?
-			.wrapper_with_padding_notice
-				%p.notice= notice
-		- unless alert.nil?
-			.wrapper_with_padding_notice
-				%p.alert= alert
+	- unless notice.nil?
+		.wrapper_with_padding_notice
+			%p.notice= notice
+	- unless alert.nil?
+		.wrapper_with_padding_notice
+			%p.alert= alert
 
 	= yield

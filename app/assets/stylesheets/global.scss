@@ -24,7 +24,7 @@ body {
 }
 
 .wrapper_with_padding {
-	width: 60%;
+	width: 45%;
 	margin: 0 auto;
 	padding: 2em 0;
 }
@@ -37,8 +37,8 @@ body {
 
 .wrapper_with_padding_notice{
 	width: 60%;
-	margin: 0 auto;
-	padding: 3em 0 0 0;
+	margin: 20px auto;
+	padding: 0;
 }
 
 .notice, .alert{
@@ -74,7 +74,7 @@ button, .button {
 
 .button {
 	color: white;
-	margin: 2rem 0;
+	margin: 1rem 0;
 }
 
 a {
@@ -99,6 +99,9 @@ header {
 			display: inline-block;
 			width: 10rem;
 			float: left;
+			img{
+				width: 100px;
+			}
 		}
 		nav {
 			float: right;
